@@ -1,7 +1,14 @@
 # Caregiving and Health Behaviours over the Lifecourse
 
+## Acknowledgements
+
+This code was developed by Enrico Pfeifer. Portions of the analysis 
+code were adapted from code originally written by Rebecca Lacey and 
+Baowen Xue (UCL Department of Epidemiology and Public Health), to 
+whom the authors are grateful.
+
 **Replication code for:**
-Pfeifer, E. (under review). Health behaviour changes around transitions into and out of unpaid caregiving in the UK: a longitudinal study. *SSM – Population Health.*
+Pfeifer, E. et al. (under review). Health behaviour changes around transitions into and out of unpaid caregiving in the UK: a longitudinal study. *SSM – Population Health.*
 
 ---
 
