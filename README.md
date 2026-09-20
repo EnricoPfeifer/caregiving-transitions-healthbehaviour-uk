@@ -56,20 +56,20 @@ The distributional checks in `08_sensitivity.do` additionally require `prcounts`
 
 ```
 code/
-  00_graph_settings.do      Graph style settings for all publication figures
-  01_extract_wide.do        Extract variables from UKHLS and build wide dataset
-  02_clean.do               Clean variables and construct analysis dataset
-  03_fixed_effects.do       Fixed effects models (entry and exit)
-  04_psm_entry.do           PSM growth curve models for caregiving entry
-  05_psm_entry_strata.do    PSM entry models stratified by sex and age group
-  06_psm_exit.do            PSM growth curve models for caregiving exit
-  07_psm_exit_strata.do     PSM exit models stratified by sex and age group
-  08_sensitivity.do         Continuous and standardised re-estimation, and
-                            distributional checks for the AUDIT-C outcome
-  09_multiple_imputation.do Multiple imputation on the matched sample
+  00_graph_settings.do                         Graph style settings for all publication figures
+  01_extract_wide.do                           Extract variables from UKHLS and build wide dataset
+  02_clean.do                                  Clean variables and construct analysis dataset
+  03_fixed_effects.do                          Fixed effects models (entry and exit)
+  04_psm_entry.do                              PSM growth curve models for caregiving entry
+  05_psm_entry_strata.do                       PSM entry models stratified by sex and age group
+  06_psm_exit.do                               PSM growth curve models for caregiving exit
+  07_psm_exit_strata.do                        PSM exit models stratified by sex and age group
+  08_sensitivity1_z-scores.do                  Continuous and standardised re-estimation, and
+                                               distributional checks for the AUDIT-C outcome
+  09_sensitivity2_multiple_imputation.do       Multiple imputation on the matched sample
 
-data/                       Data access instructions (no data files stored here)
-output/                     Output directory (no results files stored here)
+data/                                          Data access instructions (no data files stored here)
+output/                                        Output directory (no results files stored here)
 ```
 
 ---
